@@ -9,7 +9,7 @@ python csv_insert.py
 ```
 ##run server
 ```python
-python draw_member.pu
+python draw_member.py
 ```
 
 
