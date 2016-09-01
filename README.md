@@ -34,8 +34,9 @@ python draw_member.py
 
 
 
-##建立Jinja2模板=>Jinja2模板都要放在templates資料夾下，當Flask利用render_templates呼叫時
- 便可以被讀取
+##建立Jinja2模板
+###Jinja2模板都要放在templates資料夾下，當Flask利用render_templates呼叫時便可以被讀取
+###css樣板則要放在static之下
 
 1.建立index.html
 2.建立base.html，利用繼承方式，讓其他模板繼承常用功能
