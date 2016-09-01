@@ -1,13 +1,29 @@
+#操作
+##install package
+```python
+pip install Flask,jinja2
+```
+##create sqlite database
+```python
+python csv_insert.py
+```
+##run server
+```python
+python draw_member.pu
+```
+
+
+#說明
+
 ##Slite 測試(建立test.db)
 1.使用$sqlite3 test.db < create_db.sql，將sql轉為sqlite db
     
     
-
-##用PYTHON 寫入cvs資料(建立實際使用的members.db，使用csv_insert.pu)
-1.利用csv_insert.py將csv資料寫入
- ++ 讀取sql file
- ++ 建立資料庫
- ++ 讀取csv後寫入資料庫   
+##用PYTHON 寫入cvs資料(建立實際使用的members.db，使用csv_insert.py)
+1.利用csv_insert.py將csv資料寫入   
+  +  讀取sql file
+  +  建立資料庫
+  +  讀取csv後寫入資料庫   
  
 
 ##寫抽籤程序(draw_member.py)
@@ -23,3 +39,6 @@
 
 1.建立index.html
 2.建立base.html，利用繼承方式，讓其他模板繼承常用功能
+
+
+
