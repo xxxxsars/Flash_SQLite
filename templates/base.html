@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}成員抽籤{% endblock %}</title>
+</head>
+<body>
+<!--block 定義了四種不同得塊，head，title，content和footer，若父類別有植子類別沒實作則會繼承父類，這邊的content記錄了一串常用的書籤列-->
+{% block content %}{% endblock content %}
+<hr>
+<h3>功能列</h3>
+<ul>
+    <li><a href="/">首頁</a></li>
+    <li><a href="/history">歷史紀錄</a></li>
+    <li><a href="/reset">清除紀錄、更新成員資料</a></li>
+</ul>
+
+</body>
+</html>

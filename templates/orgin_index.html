@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>抽籤成員</title>
+</head>
+    <h1>來抽出快樂的夥伴吧!</h1>
+    <p>選擇要被抽出的團體</p>
+    <form action = {{url_for('draw')}} method = 'post'>
+        <label for="group_name">團隊名稱</label>>
+          <input type="radio" name="group_name" value="μ's">μ's
+          <input type="radio" name="group_name" value="K-ON!">K-ON!
+          <input type="radio" name="group_name" value="ALL" checked>（全
+          <input type="submit" value="Submit">
+    </form>
+    <hr>
+    <body>
+    <h3>功能列</h3>
+    <ul>
+        <li>首頁(抽籤)</li>
+        <li>歷史紀錄</li>
+        <li>清除歷史紀錄、更新成員資料</li>
+    </ul>
+
+    </body>
+</html>
