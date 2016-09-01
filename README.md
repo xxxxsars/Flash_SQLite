@@ -42,4 +42,6 @@ python draw_member.py
 2.建立base.html，利用繼承方式，讓其他模板繼承常用功能
 
 
-
+##參考資料
+![用 Flask 與 SQLite 架抽籤網站](https://blog.liang2.tw/posts/2015/09/flask-draw-member/)
+![Jinja2官方文件](http://docs.jinkan.org/docs/flask/tutorial/dbcon.html)
