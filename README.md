@@ -1,18 +1,21 @@
-##lite 測試(建立test.db)
+##Slite 測試(建立test.db)
 1.使用$sqlite3 test.db < create_db.sql，將sql轉為sqlite db
-
+    
+    
 
 ##用PYTHON 寫入cvs資料(建立實際使用的members.db，使用csv_insert.pu)
 1.利用csv_insert.py將csv資料寫入
  ++ 讀取sql file
  ++ 建立資料庫
- ++ 讀取csv後寫入資料庫
+ ++ 讀取csv後寫入資料庫   
+ 
 
 ##寫抽籤程序(draw_member.py)
 1.利用flask.g模組來做sqlite的連線與中斷處理
 2.建立首頁資訊，呼叫index.html
 3.建立/draw頁面(抽籤頁面)，詳細請看code
-4.建立history頁面，透過view的history.html呈現，並繼承base.html的書籤列(/draw一樣處理方式)
+4.建立history頁面，透過view的history.html呈現，並繼承base.html的書籤列(/draw一樣處理方式)    
+
 
 
 ##立Jinja2模板=>Jinja2模板都要放在templates資料夾下，當Flask利用render_templates呼叫時
