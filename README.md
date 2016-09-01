@@ -18,7 +18,7 @@
 
 
 
-##立Jinja2模板=>Jinja2模板都要放在templates資料夾下，當Flask利用render_templates呼叫時
+##建立Jinja2模板=>Jinja2模板都要放在templates資料夾下，當Flask利用render_templates呼叫時
  便可以被讀取
 
 1.建立index.html
